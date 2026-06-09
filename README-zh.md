@@ -84,6 +84,7 @@ English: [README.md](README.md)
 
 | 技能 | 作用 |
 |---|---|
+| [`skills-map`](skills/skills-map/) | **路由器 —— 从这里开始。** 把本集合里的每个 skill 映射到它所属的工作阶段（决策 → Spec → 构建 → Debug → 多 agent 分发 → 调研 → 媒体 → 分析），任务开头走一遍决策树选出该用的那一个。补上"发现"这个洞：skill 只有在 agent 记得它存在、且在对的时刻伸手去拿时才会触发。手工维护的索引 + 典型链式流程 + 反合理化表。`/skills-map` 或任何"该用哪个 skill"的犹豫时触发。 |
 | [`spec-driven-dev`](skills/spec-driven-dev/) | 完整软件开发生命周期：Spec → Plan → Build → Test → Review → Ship。反合理化表、验证关卡、原子提交。 |
 | [`debug-hypothesis`](skills/debug-hypothesis/) | 科学方法 debug：Observe → Hypothesize → Experiment → Conclude。反"蛮干"规则、最多 5 行实验、强制 `DEBUG.md` 证据链。 |
 | [`wiki-aggregate`](skills/wiki-aggregate/) | 把 N≥3 份原始素材聚合成一个结构化 pack，agentic aggregation 协议。Cheap-pass + 工具预算的 aggregator loop，每条 claim 带 `path:行号` 溯源，跨源矛盾自动暴露。 |

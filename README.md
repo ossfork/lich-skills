@@ -138,6 +138,7 @@ runs. Refuses to fake green (`@ts-ignore`, deleting tests, `|| true`). See [`ski
 
 | Skill | What it does |
 |---|---|
+| [`skills-map`](skills/skills-map/) | **The router — start here.** Maps every skill in this collection to its phase of work (Decide → Spec → Build → Debug → Fan-out → Research → Media → Analyze) and walks a decision tree to pick the right one. Closes the discovery gap: a skill only fires if the agent remembers it exists and reaches for it at the right moment. Hand-curated index + typical pipelines + anti-rationalization table. Run on `/skills-map` or any "which skill should I use" doubt. |
 | [`go-no-go`](skills/go-no-go/) | **Stage 0 gate — NO-GO is the default.** Runs before `/spec` to decide whether a project should start at all. Memory check against prior attempts + 5 framework gates (Differentiation · Audience–Market Fit · Acquisition Channel · Capacity · 7-Factor Wedge) + 24h pattern-interrupt if enthusiasm-high + public commitment doc with D14/D30/D60/D90 kill criteria. 3 starter packs (solo-founder · indie-dev · content-creator). |
 | [`spec-driven-dev`](skills/spec-driven-dev/) | Full SDLC workflow: Spec → Plan → Build → Test → Review → Ship. Anti-rationalization tables, verification gates, atomic commits. Pairs with `go-no-go` as Stage 1 of the pipeline. |
 | [`debug-hypothesis`](skills/debug-hypothesis/) | Scientific-method debugging: Observe → Hypothesize → Experiment → Conclude. Anti-bulldozer rules, max 5-line experiments, mandatory `DEBUG.md` evidence trail. |

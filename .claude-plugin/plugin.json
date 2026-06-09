@@ -1,7 +1,7 @@
 {
   "name": "lich-skills",
-  "description": "LichAmnesia's open-source Claude Code skills — flagship spec-driven-dev workflow plus debug-hypothesis, wiki-aggregate, build-until-pass (self-correcting build loop), Tavily search, Nano Banana image generation, frontend-design, and subagent-brief (pre-flight token discipline for multi-agent fan-out).",
-  "version": "0.1.0",
+  "description": "LichAmnesia's open-source Claude Code skills — skills-map router (picks which skill to use) plus flagship spec-driven-dev workflow, debug-hypothesis, wiki-aggregate, build-until-pass (self-correcting build loop), Tavily search, Nano Banana image generation, frontend-design, and subagent-brief (pre-flight token discipline for multi-agent fan-out).",
+  "version": "0.1.1",
   "author": {
     "name": "Shen Huang (LichAmnesia)",
     "url": "https://github.com/LichAmnesia"
@@ -12,6 +12,8 @@
   "keywords": [
     "claude-code",
     "skills",
+    "skills-map",
+    "skill-router",
     "spec-driven-development",
     "sdd",
     "debug-hypothesis",
